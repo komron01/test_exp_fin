@@ -67,7 +67,7 @@ function App() {
 
       <div className='cards__section'>
 
-        <h3>Homes For You</h3>
+        <h3>KZTokens For You</h3>
 
         <hr />
 
@@ -78,7 +78,7 @@ function App() {
                 <img src={home.image} alt="Home" />
               </div>
               <div className='card__info'>
-                <h4>{home.attributes[0].value} ETH</h4>
+                <h4>{home.attributes[0].value} KZToken</h4>
                 <p>
                   <strong>{home.attributes[2].value}</strong> bds |
                   <strong>{home.attributes[3].value}</strong> ba |
